@@ -22,7 +22,7 @@ let button=document.querySelector('button')
 button.onclick=showImport()
 
 function showImport(){
-    let myName =prompt('请输入你的名字')
+    let myName =prompt('请输入你的名字1')
     localStorage.setItem('name',myName)
     myHeading.textContent=(myHeading.textContent ==='null' ? "" :myHeading.textContent ) + (myName == null ? "" :myName)
     
