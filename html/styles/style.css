@@ -1,32 +1,4 @@
-
-html {
-    margin: 0;
-  padding: 20px 0;
-  color: #00539F;
-
-  }
-  body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #FF9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
-  h1 {
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    text-shadow: 3px 3px 1px black;
-  }
-  
-  image{
-      display: block;
-      margin: 0 auto;
-        
-  }
-  p, li {
-    font-size: 16px;
-    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
-    line-height: 2;
-    letter-spacing: 1px;
-  }
+.box {
+  background: linear-gradient(105deg, rgba(255,255,255,.2) 39%, rgba(51,56,57,1) 96%) center center / 400px 200px no-repeat,
+  url(big-star.png) center no-repeat, rebeccapurple;
+} 
