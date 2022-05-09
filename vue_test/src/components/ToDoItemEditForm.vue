@@ -16,7 +16,7 @@
       </button>
       <button type="submit" class="btn btn__primary">
         Save
-        <span class="visually-hidden">edit for {{ label }}</span>
+        <span class="visually-hidden">edit for {{ label }} </span>
       </button>
     </div>
   </form>

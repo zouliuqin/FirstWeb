@@ -1,0 +1,13 @@
+{
+  "name": "rolling-panda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"parcel build src/index.html"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
